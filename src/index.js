@@ -29,5 +29,5 @@ Order.propTypes = {
   orderInfo: PropTypes.shape({
     customerName: PropTypes.string.isRequired,
     orderedAt: PropTypes.number.isRequired
-  })
+  }).isRequired
 };
