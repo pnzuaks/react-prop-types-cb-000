@@ -7,7 +7,7 @@ class Order extends React.Component {
           <li>{ this.props.cone ? 'Cone' : 'Cup' }</li>
           <li>{ this.props.size }</li>
           <li>{ this.props.scoops.length } scoops: {this.props.scoops.join(', ')}</li>
-          <li> Ordered by: { this.props.size }</li>
+          <li> Ordered by { this.props.size }</li>
           <li>{ this.props.size }</li>
       </div>
     )
