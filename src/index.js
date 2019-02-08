@@ -1,6 +1,6 @@
 // Code Goes Here
 import React from 'react';
-import PropTypes from 
+import PropTypes from 'prop-types';
 
 class Order extends React.Component {
   render() {
