@@ -1,2 +1,4 @@
 // Code Goes Here
-class Order extends React.component 
+class Order extends React.Component {
+  
+}
