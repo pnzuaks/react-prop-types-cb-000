@@ -5,7 +5,10 @@ class Order extends React.Component {
       <div className="order">
         <ul>
           <li>{ this.props.cone ? 'Cone' : 'Cup' }</li>
-          
+          <li>{ this.props.size }</li>
+          <li>{ this.props.size }</li>
+          <li>{ this.props.size }</li>
+          <li>{ this.props.size }</li>
       </div>
     )
   }
