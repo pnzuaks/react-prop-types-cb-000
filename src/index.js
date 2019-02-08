@@ -4,7 +4,7 @@ class Order extends React.Component {
     return (
       <div className="order">
         <ul>
-          <li>{ this.props.cone ? }
+          <li>{ this.props.cone ? 'Cone' : 'Cup'}
       </div>
     )
   }
